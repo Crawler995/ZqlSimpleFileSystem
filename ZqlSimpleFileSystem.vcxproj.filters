@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZqlSimpleFileSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cli\CLIHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cli\Tip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\QuitCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\NewCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\data_structure\SystemMemoryCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\data_structure\SystemCenterFacade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\ExitCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\MkdirCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\LsCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\CdCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\CreateCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\OpenCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\CloseCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\WriteCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\ReadCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\DeleteCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\RmdirCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\command\SfsCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\cli\CLIHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\cli\Tip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\QuitCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\NewCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\data_structure\SystemMemoryCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\data_structure\SystemCenterFacade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\ExitCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\MkdirCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\LsCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\CdCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\CreateCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\OpenCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\CloseCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\WriteCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\ReadCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\DeleteCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\RmdirCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\command\SfsCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
